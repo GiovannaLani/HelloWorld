@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace HelloWorld1
+{
+
 public class HelloWorld : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -17,4 +20,5 @@ public class HelloWorld : MonoBehaviour
         Debug.Log("Hello World");
 
     }
+}
 }
