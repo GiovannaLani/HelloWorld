@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : MonoBehaviour
+namespace PlayableCharacters
+{
+
+public abstract class Character
 {
     public string name;
     public int life = 1;
@@ -17,5 +20,6 @@ public class Character : MonoBehaviour
         Debug.Log(name + "ha muerto");
     }
 
-
+    public abstract void takeDamage();
+}
 }
