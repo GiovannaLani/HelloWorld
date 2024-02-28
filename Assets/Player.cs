@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PlayableCharacters;
 
 public class Player : Character
 {
@@ -9,7 +10,7 @@ public class Player : Character
         Debug.Log(this.name);
     }
 
-    public override void takeDamage()
+    public override void TakeDamage()
     {
         
     }
@@ -22,8 +23,8 @@ public class Enemy : Character
 
     }
 
-    public override void takeDamage()
+    public override void TakeDamage()
     {
-        life--;
+        healthPoints--;
     }
 }

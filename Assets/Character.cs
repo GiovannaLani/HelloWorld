@@ -4,12 +4,11 @@ using UnityEngine;
 
 namespace PlayableCharacters
 {
-
 public abstract class Character
 {
     public string name;
-    public int life = 1;
-    public int Life { get => Life; set => Life = value; }
+    public int healthPoints = 5;
+    public int HealthPoints { get => healthPoints; set => healthPoints = value; }
     public Character(string name)
     {
         this.name = name;
@@ -20,6 +19,6 @@ public abstract class Character
         Debug.Log(name + "ha muerto");
     }
 
-    public abstract void takeDamage();
+    public abstract void TakeDamage();
 }
 }
