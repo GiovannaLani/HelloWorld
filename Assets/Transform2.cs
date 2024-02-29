@@ -7,6 +7,7 @@ public class Transform2 : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] //Para verlo en unity
     private GameObject cube;
+  
     void Start()
     {
         //cube = GameObject.Find("Cube");
