@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Azul
-  - Rojo
+  - Rueda
+  - Base
+  - chimenea
+  - Cuerpo
+  - Tejado
   layers:
   - Default
   - TransparentFX
